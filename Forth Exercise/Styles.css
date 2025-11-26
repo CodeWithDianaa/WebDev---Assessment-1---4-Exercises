@@ -1,0 +1,127 @@
+/* Page background and text */
+body {
+    margin: 0;
+    background: #e6eef2; /* Soft blue-grey color */
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Skip link style */
+.skip-link {
+    position: absolute;
+    top: -40px;
+    left: 0;
+    background: #000;
+    color: #fff;
+    padding: 8px;
+    z-index: 100;
+}
+.skip-link:focus {
+    top: 0;
+}
+
+/* Cart in top-right corner */
+.top-cart {
+    width: 50px;
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    z-index: 200;
+}
+
+/* Header style */
+header {
+    text-align: center;
+    padding: 20px 0;
+    background-color: #ffffff;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+header .logo {
+    width: 150px;
+    margin-bottom: 10px;
+}
+
+/* Menu items */
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+nav ul li {
+    display: inline-block;
+    margin: 0 15px;
+}
+nav ul li a {
+    text-decoration: none;
+    color: #0055aa;
+    font-size: 18px;
+}
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+/* Main content layout */
+main {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+h1 {
+    text-align: center;
+}
+
+/* Gallery grid */
+.photo-gallery {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+/* Each photo box */
+.photo-item {
+    background-color: #ffffff;
+    border-radius: 10px;
+    overflow: hidden;
+    width: 300px;
+    text-align: center;
+    box-shadow: 0 3px 8px rgba(0,0,0,0.1);
+    padding-bottom: 15px;
+}
+
+/* Photo images */
+.photo-item img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+}
+
+/* Caption style */
+figcaption {
+    font-size: 16px;
+    margin: 10px 5px;
+}
+
+/* Add to basket button under photos */
+.basket-btn {
+    margin-top: 10px;
+    padding: 10px 20px;
+    background-color: #0077cc;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 16px;
+}
+.basket-btn:hover {
+    background-color: #005fa3;
+}
+
+/* Footer style */
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #ffffff;
+    margin-top: 30px;
+    box-shadow: 0 -2px 5px rgba(0,0,0,0.1);
+}
