@@ -1,0 +1,72 @@
+body {
+    /* Give whole page grey background and basic text style */
+    background-color: #cfcfcf;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    /* White area in middle where all content sit */
+    background-color: white;
+    width: 75%;
+    margin: 40px auto;
+    padding: 40px;
+    border-radius: 20px;
+}
+
+.main-title {
+    /* Very big title at top of the page */
+    text-align: center;
+    color: #3ca000;
+    font-size: 80px;
+    font-weight: 900;
+    margin-top: 0;
+    margin-bottom: 10px;
+}
+
+.subtitle {
+    /* Second title under main title */
+    text-align: center;
+    color: #3ca000;
+    font-size: 48px;
+    font-weight: 800;
+    margin-top: 0;
+}
+
+.section-title {
+    /* Heading for different sections of the story */
+    text-align: center;
+    color: #3ca000;
+    font-size: 54px;
+    font-weight: 900;
+    margin-top: 60px;
+}
+
+p {
+    /* Normal text styling for paragraphs */
+    font-size: 20px;
+    line-height: 1.6;
+}
+
+.fact-box {
+    /* Green background box for fun fact section */
+    background-color: #3ca000;
+    padding: 25px 30px;
+    border-radius: 20px;
+    margin: 40px 0;
+    color: white;
+}
+
+.fact-title {
+    /* Title inside the green fact box */
+    font-size: 40px;
+    font-weight: 900;
+    margin: 0 0 10px;
+}
+
+.fact-text {
+    /* Smaller text inside fact box */
+    font-size: 20px;
+    margin: 0;
+}
