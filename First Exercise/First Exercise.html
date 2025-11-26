@@ -1,0 +1,107 @@
+!doctype html>
+<!-- This tell browser we using HTML5 format -->
+
+<html lang="en">
+<!-- Say that this website is written in English language -->
+
+<head>
+  <!-- In this part we put settings for page, not visible things -->
+  <meta charset="utf-8" />
+  <!-- Make sure all characters show in correct way -->
+
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <!-- Make page fit better on phone or tablet screen -->
+
+  <title>Cooking with Andy!</title>
+  <!-- Text that show on top of browser tab -->
+</head>
+
+<body>
+  <!-- Everything user can see on page is inside here -->
+
+  <header style="background-color: grey; padding: 20px;">
+    <!-- Header is top area with title and menu links -->
+    <h1>Cooking with Andy!</h1>
+
+    <nav aria-label="Primary">
+      <!-- Menu for going to different parts of same page -->
+      <ul>
+        <li><a href="#home">Home</a></li>
+        <!-- When click, go down to home area -->
+
+        <li><a href="#blog">Blog</a></li>
+        <!-- When click, jump to blog part -->
+
+        <li><a href="#browse">Browse</a></li>
+        <!-- Jump to browse section if available -->
+      </ul>
+    </nav>
+  </header>
+
+  <main id="home">
+    <!-- Main content of the page start here -->
+    <article>
+      <!-- This is like one complete post or recipe -->
+
+      <header>
+        <!-- Small header only for this article -->
+        <h2>Chocolate Chip Cookies</h2>
+        <p>Delicious homemade cookies with gooey chocolate chips!</p>
+      </header>
+
+      <section aria-labelledby="ingredients-heading">
+        <!-- Part where we show what items are needed -->
+        <h3 id="ingredients-heading">Ingredients</h3>
+
+        <ul>
+          <!-- List that is not numbered -->
+          <li>2 1/4 cups flour</li>
+          <li>1/2 teaspoon baking soda</li>
+          <li>1 cup unsalted butter, softened</li>
+          <li>1/2 cup granulated sugar</li>
+          <li>1 cup packed brown sugar</li>
+          <li>1 teaspoon vanilla extract</li>
+          <li>2 large eggs</li>
+          <li>2 cups semisweet chocolate chips</li>
+        </ul>
+
+        <aside aria-label="Egg substitute tip">
+          <!-- Small extra info not required for main steps -->
+          <p style="background-color: grey; padding: 20px;">
+            <!-- Helpful note if someone have no eggs -->
+            If you don't have eggs, you can use a suitable egg substitute like
+            applesauce, mashed bananas, or yogurt. Use 1/4 cup of the
+            substitute for each egg in the recipe.
+          </p>
+        </aside>
+      </section>
+
+      <section aria-labelledby="instructions-heading">
+        <!-- Here we write the steps to follow -->
+        <h3 id="instructions-heading">Instructions</h3>
+
+        <ol>
+          <!-- List with numbers because steps go in order -->
+          <li>Preheat your oven to 190°C.</li>
+          <li>In a small bowl, mix the flour and baking soda. Set aside.</li>
+          <li>In a large mixing bowl, cream together the softened butter,
+            granulated sugar, brown sugar, and vanilla extract until smooth.</li>
+          <li>Add the eggs one at a time, beating well after each addition.</li>
+          <li>Gradually add the flour mixture to the wet ingredients, mixing until well combined.</li>
+          <li>Stir in the chocolate chips.</li>
+          <li>Drop rounded tablespoons of dough onto ungreased baking sheets.</li>
+          <li>Bake in the oven for 8–10 minutes or until the edges are golden brown.</li>
+          <li>Allow the cookies to cool on the baking sheets for a few minutes before transferring them to wire racks to cool completely.</li>
+        </ol>
+      </section>
+
+      <footer style="background-color: grey; padding: 20px;">
+        <!-- Bottom section of the recipe for credits -->
+        <p id="blog">Cooking With Andy © 2024</p>
+        <!-- ID for scrolling when someone click Blog -->
+      </footer>
+
+    </article>
+  </main>
+</body>
+</html>
